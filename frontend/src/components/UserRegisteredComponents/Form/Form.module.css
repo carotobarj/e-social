@@ -1,0 +1,370 @@
+input[type=checkbox] {
+  display: inline-block;
+}
+
+.titleForm {
+  margin-top: 3%;
+  text-align: center;
+  height: 20px;
+  font-weight: 500;
+}
+
+.select {
+  background: rgba(183, 203, 187, 0.184);
+}
+
+.formFondo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fotoF1 {
+  padding: 20px;
+}
+
+.btnF {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0;
+  background-color: #a9b79e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.loadImageBtn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #a9b79e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btnAdicional {
+  display: flex;
+  justify-self: center;
+  background-color: #a9b79e;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 3% 1% 3%;
+}
+
+.campoInput {
+  padding: 1rem;
+  width: 313px;
+  border-radius: 5px;
+  border: none;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.tapas {
+  margin: 10px auto;
+}
+
+.ilustrado {
+  margin-top: 20px;
+
+}
+
+.formikContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.formReqContents {
+  background-color: rgba(110, 144, 118, 0.184);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  height: fit-content;
+  width: 45%;
+  padding-top: 2%;
+}
+
+.formCategories {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 5%;
+}
+
+.formOpcionales {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(110, 144, 118, 0.184);
+  margin: auto;
+  border-radius: 20px;
+  width: 45%;
+}
+
+.formBody {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 3%;
+  width: 313px;
+}
+
+.input {
+  width: 100%;
+  background: white;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  width: 100%;
+}
+
+.imgInput {
+  background: white;
+  border: none;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  width: 100%;
+}
+
+.selector {
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  background: white;
+  border: none;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  margin: 5% auto 0;
+  width: 100px;
+  margin: 5% auto
+}
+
+.textarea {
+  outline: none;
+  background: white;
+  padding: 3px 60px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.label {
+  display: flex;
+  justify-content: left;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.labelCenter {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width: 100%;
+}
+
+.titleSelect {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.previewImg {
+  object-fit: contain;
+  max-height: 400px;
+  padding: 3%;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.back {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.back:hover {
+  color: rgb(105, 138, 105)
+}
+
+.sendMsg {
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  z-index: 999;
+  cursor: pointer;
+  background-color: #a9b79e;
+  padding: 15px;
+  margin: auto auto 1%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.botonFle {
+  display: flex;
+  justify-content: center;
+
+}
+
+.sp {
+  background: rgba(128, 128, 128, 0.63);
+  border-radius: 7px;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px 10px;
+
+}
+
+.el {
+  margin: 3px;
+}
+
+.categoriasF {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.check {
+  background-color: rgba(125, 127, 125, 0.184);
+  width: 250px;
+  height: 250px;
+  overflow: scroll;
+  padding-left: 10%;
+  padding-top: 4%;
+}
+
+.check::-webkit-scrollbar {
+  background: none;
+}
+
+.check::-webkit-scrollbar-corner {
+  background: none;
+}
+
+.checkBox {
+  margin: 0px 4% auto 0%;
+  height: 17px;
+  width: 17px;
+  border-radius: 4px;
+}
+
+.optionContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 7% 0;
+}
+
+.textoFile {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.subdi {
+  margin: auto;
+  /* position: absolute; */
+  /* left: 3rem;    */
+}
+
+.error {
+  color: rgba(255, 0, 0, 0.699);
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.left.centro {
+  display: flex;
+  justify-content: left;
+}
+
+.centro {
+  display: flex;
+  justify-content: center;
+  color: rgb(110, 110, 110);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.oldData {
+  color: rgb(110, 110, 110);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+/* RENDERIZADO DE LA CARD DEL LIBRO */
+.contenedorBook {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 1.5%;
+}
+
+.cardBook {
+  background-color: #9d1d36;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  width: 45%;
+  padding: 3% 5% 0;
+  color: white;
+}
+
+.imgBook {
+  max-width: 300px;
+  max-height: 460px;
+  margin: 0 auto;
+}
+
+.btnBook {
+  font-size: 15px;
+  margin-top: 2%;
+  padding: 7px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  background-color: #993448;
+  border-radius: 10px;
+}
+
+.textBook {
+  padding: 5px;
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 4%;
+}
+
+.precioBook {
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,37 @@
+.linked{
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #9d1d36;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   }
+
+.AdCont{
+    background-color: rgba(110, 144, 118, 0.184);
+    padding: 15rem;
+    /* margin:10rem; */
+    border-radius: 2rem;
+    box-shadow: 0 2px 20px #a9b79e;
+    width: 650px;
+    margin: 0px auto;
+    }
+.container{
+    height: auto;
+    margin-top: 5%;
+    float: center;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.saludoAdmin{
+    padding: 2rem;
+    width:100%
+}

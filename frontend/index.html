@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9P53K6mCOZbz7qrecm8BCXbi1ysEXHZcnaA&usqp=CAU">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400;700&family=Ubuntu:wght@400;700&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BooksComerce</title>
+  <style>
+    .modoOscuro {
+      margin-bottom: 5%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="root" id="root"></div>
+  <div id="modoOscuro">
+    <div onClick={cambiarModo} class="switch-modo-oscuro" id="switch-modo-oscuro">
+      <button class="boton-modo-claro boton-switch">🌞</button>
+      <button class="boton-modo-oscuro boton-switch">🌙</button>
+    </div>
+  </div>
+  <script>
+    function cambiarModo() {
+      document.body.classList.toggle("modo-oscuro")
+    }
+    document.getElementById("switch-modo-oscuro").onclick = cambiarModo
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
